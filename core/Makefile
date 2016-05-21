@@ -1930,6 +1930,10 @@ bacon: otapackage
 	$(hide) ln -f $(INTERNAL_OTA_PACKAGE_TARGET) $(CM_TARGET_PACKAGE)
 	$(hide) $(MD5SUM) $(CM_TARGET_PACKAGE) > $(CM_TARGET_PACKAGE).md5sum
 	@echo -e ${CL_CYN}"Package Complete: $(CM_TARGET_PACKAGE)"${CL_RST}
+@echo -e $(CL_CYN) " ____  _  _  ____   __   ____  _  _ "
+@echo -e $(CL_CYN) "(_  _)/ )( \(  __) / _\ (  _ \/ )( \"
+@echo -e $(CL_CYN) "  )(  ) __ ( ) _) /    \ ) __/) \/ ("
+@echo -e $(CL_CYN) " (__) \_)(_/(____)\_/\_/(__)  \____/"
 
 # -----------------------------------------------------------------
 # The factory package
