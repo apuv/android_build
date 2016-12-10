@@ -202,9 +202,9 @@ TARGET_IS_64_BIT := true
 endif
 
 # the target build type defaults to release
-#ifneq ($(TARGET_BUILD_TYPE),debug)
+ifneq ($(TARGET_BUILD_TYPE),debug)
 TARGET_BUILD_TYPE := release
-#endif
+endif
 
 # ---------------------------------------------------------------
 # figure out the output directories
