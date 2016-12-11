@@ -202,8 +202,8 @@ function setpaths()
     # defined in core/config.mk
     targetgccversion=$(get_build_var TARGET_GCC_VERSION)
     targetgccversion2=$(get_build_var 2ND_TARGET_GCC_VERSION)
-    targetgccversion="uber-5.3"
-    targetlegacygccversion="uber-5.3"
+    #targetgccversion="uber-5.3"
+    #targetlegacygccversion="uber-5.3"
     export TARGET_GCC_VERSION=$targetgccversion
 
     # The gcc toolchain does not exists for windows/cygwin. In this case, do not reference it.
